@@ -3,13 +3,11 @@
   flex-direction: column;
   align-items: center;
   padding: 2rem;
-  background-color: var(--color-primary);
-  color: var(--color-text-light);
 }
 
 .testimonials__card {
-  background-color: var(--color-secondary);
-  color: var(--color-text-dark);
+  background-color: var(--grey-color-5);
+  color: var(--secondary-color);
   padding: 2rem;
   max-width: 40rem;
   border-radius: 1.5rem;
@@ -19,6 +17,7 @@
 
 .testimonials__image {
   border-radius: 50%;
+  border: 2px solid var(--primary-color);
   width: 4.5rem;
   height: 4.5rem;
   margin-bottom: 1rem;
@@ -26,14 +25,14 @@
 }
 
 .testimonials__text {
-  font-size: 1.1rem;
   margin: 1rem 0;
+  
 }
 
 .testimonials__name {
   font-size: 1.25rem;
   font-weight: bold;
-  color: var(--color-text-light);
+  color: var(--primary-color);
 }
 
 .testimonials__buttons {
@@ -48,13 +47,13 @@
   cursor: pointer;
   border: none;
   border-radius: 0.5rem;
-  color: var(--color-text-light);
-  background-color: var(--color-accent);
+  color: var(--grey-color-5);
+  background-color: var(--primary-color);
   transition: background-color 0.3s ease;
 }
 
 .testimonials__button:hover {
-  background-color: var(--color-accent-dark);
+  background-color: var(--secondary-color);
 }
 
 /* Mobile responsiveness */

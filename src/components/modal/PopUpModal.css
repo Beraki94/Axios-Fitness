@@ -1,0 +1,64 @@
+/*POPUP MODAL COMPONENT*/
+.onboarding{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+ 
+.modal-content {
+    position: relative;
+    width: 40%;
+    border-radius: 16px;
+    margin: auto;
+    background:white;
+    color: var(--secondary);
+    padding: 2rem;
+    margin-top: 32px;
+    overflow: hidden;
+    z-index: 1001; /* Ensure it's above the overlay */
+  }
+.modal__close{
+  font-size: 2rem;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  background-color: white;
+
+}
+.onboarding-title{
+    color: var(--primary-color);
+}
+.onboarding-signup, .onboarding-login{
+    background-color: var(--secondary);
+   width: 100%;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    
+}
+
+.onboarding-signup:hover .onboarding-login:hover {
+    background-color: var(--secondary);
+    cursor: pointer;
+}
+
+@media (max-width: 1089px) {
+  .modal-content {
+    width: 50%;
+    padding: 1.5rem;
+   
+  }
+}
+@media (max-width: 840px) {
+  .modal-content {
+    width: 65%;
+    padding: 1rem;
+  }
+}

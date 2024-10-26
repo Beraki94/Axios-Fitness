@@ -1,6 +1,6 @@
 import PageHeader from "../../components/pageHeader/PageHeader";
 import './Schedule.css';
-
+import SectionHeader from "../../components/sectionHeader/SectionHeader";
 const Schedule = () => {
   return (
     <div className="schedule container">
@@ -10,7 +10,9 @@ const Schedule = () => {
     >
         "Push yourself because no one else is going to do it for you."
     </PageHeader>
+
     <section className="schedule__table">
+    <SectionHeader title={"BECOME A MEMBER"} subTitle={"Our Affordable Pricing Plan"} />
     <div className="schedule__container">
       <table className="schedule__data">
         <thead>

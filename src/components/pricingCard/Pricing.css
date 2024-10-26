@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   gap: 16px;
   padding: 20px;
-  background-color: #f4f4f9;
+  
 }
 
 /* Individual pricing card styles */
@@ -17,7 +17,7 @@
   padding: 24px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  background-color: #25274D; /* Using a dark blue for a professional gym feel */
+  background-color: #353871; /* Using a dark blue for a professional gym feel */
   color: #f0f1f5;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }

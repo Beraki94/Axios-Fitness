@@ -8,7 +8,7 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <footer className="footer">
-      <div className="container">
+      <div className="container ">
         {/* Logo Section */}
         <div className="footer-section logo-section">
           <img src={Logo} alt="Website Logo"/>

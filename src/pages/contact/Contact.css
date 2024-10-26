@@ -1,18 +1,24 @@
 .contact {
     padding: 4rem 2rem; /* Following 8-point spacing system */
-    background-color: var(--grey-color-5); /* Light background for contrast */
+   
     color: var(--text-color);
   }
   
   .contact__container {
+    background: url("https://media.gettyimages.com/id/1493960038/photo/portrait-of-multiracial-athletes-smiling-at-camera-in-gym.jpg?s=612x612&w=0&k=20&c=4tJ-oGJa68ValtCaPV4XSIC0sz0ovNKpSjxZ-CAYjFg=") no-repeat center center fixed ;/* Light background for contrast */
+    background-size: cover;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
     flex-wrap: wrap;
+  }
+  .generel__info{
+    display: flex;
+    gap: 2rem;
   }
   
   /* Contact Information Styling */
@@ -83,7 +89,7 @@
     font-size: 1rem;
     cursor: pointer;
     border-radius: 4px;
-    transition: background-color 0.3s;
+   
   }
   
   .btn-primary:hover {

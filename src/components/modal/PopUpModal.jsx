@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { MdClose } from "react-icons/md";
+import "./PopUpModal.css"
   
 
 const PopUpModal = () => {
@@ -17,8 +19,10 @@ const PopUpModal = () => {
         Join Us
         </Button>
   
-        <Modal show={show} onHide={handleClose} className="onboarding">
-          <Modal.Header closeButton>
+        <Modal show={show} className="onboarding">
+          <div className='.modal-content'>
+          <Modal.Header closeButton >
+            <button className='modal__close' onClick={handleClose}><MdClose /></button>
             <Modal.Title ><h2 className='onboarding-title'>GET 5% OFF JOINING FEE</h2></Modal.Title >
           </Modal.Header>
           <Modal.Footer>
@@ -29,6 +33,7 @@ const PopUpModal = () => {
               Current Member
             </Button></Link>
           </Modal.Footer>
+          </div>
         </Modal>
 
       </>

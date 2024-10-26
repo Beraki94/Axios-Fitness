@@ -6,10 +6,6 @@ import "./AboutHero.css";
 const AboutHero = () => {
   return (
     <section className="about__split-section">
-      <SectionHeader 
-        title="EMPOWERING YOU TO BE YOUR BEST" 
-        subTitle="Our Company Overview" 
-      />
       
       {/* Company Description */}
       <div className="about__split-content">

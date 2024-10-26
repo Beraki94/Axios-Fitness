@@ -89,3 +89,20 @@
     transform: translateX(-50%);
   }
 }
+
+@media (max-width: 723px) {
+  .carousel__btn{
+    display: none;
+  }
+}
+@media (max-width: 516px) {
+  .carousel__caption{
+    width: 80%;
+    top: 3rem;
+    left: 10%; /* Centered for smaller screens */
+    padding: 1rem;
+  }
+    
+  }
+
+

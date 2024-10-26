@@ -14,7 +14,11 @@ const About = () => {
         "Strength doesn't come from what you can do. It comes from overcoming the things you once thought you couldn't."
       </PageHeader>
      
-    <section>
+    <section className="about__hero">
+    <SectionHeader 
+        title="EMPOWERING YOU TO BE YOUR BEST" 
+        subTitle="Our Company Overview" 
+      />
       <AboutHero />
     </section>
 
@@ -22,11 +26,11 @@ const About = () => {
      <SectionHeader title={"WHAT WE DO"} subTitle={"Our range of fitness services"} />
      <GymServices />
     </section>
-    <section>
+    <section className="about__gallery">
       <SectionHeader title={"TAKE A TOUR"} subTitle={"Our Outstanding training Facilties"} />
       <ImageGallery />
     </section>
-    <section>
+    <section className="about__trainers">
       <SectionHeader title={"TAKE A TOUR"} subTitle={"Our Outstanding training Facilties"}/>
       <TrainersList />
     </section>

@@ -26,11 +26,13 @@
   
   /* Services Section */
   .home__services {
-    padding: 4rem 1.5rem;
-    background-color: var(--secondary-color-90);
-    color: var(--grey-color-5);
-    text-align: center;
+    border-radius: 2rem;
+    background: url("https://media.gettyimages.com/id/1200706787/photo/sweaty-african-american-athlete-running-on-treadmill-during-sports-training-in-a-gym.jpg?s=612x612&w=0&k=20&c=dQ8_l5uo4R2kI5Nd5Y38Mwy2MLkvb57tCUBHmzvkO1c=") no-repeat center center fixed;
+    background-size: cover;
+    
   }
+
+  
   
   .home__services h2,
   .home__services h3 {
@@ -41,7 +43,7 @@
   .home__badge {
     padding: 2rem 1.5rem;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    background-color: var(--grey-color-90);
+    background-color: white;
   }
   
   /* Pricing Plans Section */
@@ -56,15 +58,12 @@
   /* Testimonials Section */
   .home__testimony {
     padding: 4rem 2rem;
-    background-color: var(--grey-color-100);
+    background-color: var(--primary-color-75);
     color: var(--primary-color-95);
     text-align: center;
   }
   
-  .home__testimony h2,
-  .home__testimony h3 {
-    color: var(--primary-color);
-  }
+  
   
   /* Discount Banner */
   .home__discount {
@@ -132,3 +131,4 @@
     }
   }
   
+ 

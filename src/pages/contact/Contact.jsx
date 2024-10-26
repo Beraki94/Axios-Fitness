@@ -2,6 +2,8 @@ import React from 'react';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 import './Contact.css';
 import PageHeader from '../../components/pageHeader/PageHeader';
+import SectionHeader from '../../components/sectionHeader/SectionHeader';
+
 const Contact = () => {
   return (
     <div className="contact container">
@@ -9,7 +11,9 @@ const Contact = () => {
       "The only bad workout is the one that didn’t happen."
       </PageHeader>
       <section className="contact__container">
+        <div><SectionHeader title={"BECOME A MEMBER"} subTitle={"Our Affordable Pricing Plan"} /></div>
         {/* Contact Info */}
+        <div className='generel__info'>
         <div className="contact__info">
           <h2>Contact Us</h2>
           <p>If you have any questions, feel free to reach out to us through any of the following channels.</p>
@@ -46,6 +50,7 @@ const Contact = () => {
             </div>
             <button type="submit" className="btn btn-primary">Send Message</button>
           </form>
+        </div>
         </div>
       </section>
 

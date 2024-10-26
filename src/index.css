@@ -10,9 +10,10 @@
 
 :root {
   --primary-color: #FC6C3A;
+  --primary-color-75: #fc6a3a66;
   --secondary-color: #184975;
   --secondary-color-75: #184a7572;
-  --gradient-color: linear-gradient(135deg, #ffa486, #62a5e0);
+  --gradient-color: linear-gradient(to top, #894f3c, #57a7ee);
   --grey-color-100: #2E2B2A;
   --grey-color-75: #5D5957;
   --grey-color-50: #898685;
@@ -39,7 +40,6 @@
 
 body {
   background-color: var(--grey-color-5);
-  color: var(--grey-color-100);
   font-family: "Roboto", sans-serif;
   font-size: 1rem; /* 16px */
   line-height: var(--bodyText-line-height);
@@ -47,7 +47,7 @@ body {
 }
 
 section {
-  padding: var(--spacing-8) 0;
+  padding: var(--spacing-8) ;
 }
 
 .container {

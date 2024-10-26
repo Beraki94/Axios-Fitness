@@ -1,9 +1,10 @@
 .gym-services {
     display: flex;
+    border-radius: 2rem;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
-    padding: 2rem 1rem;
+    margin: 2rem;
     background-color: var(--grey-color-5); /* Optional background */
   }
   

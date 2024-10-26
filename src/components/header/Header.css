@@ -16,13 +16,13 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 1rem 2rem; /* Consistent padding */
+    padding: 1rem 3rem; /* Consistent padding */
     border-bottom: 2px solid #ffb39a;
     background-color: rgba(255, 255, 255, 0.989);
   }
   
   .header__logo img {
-    height: 3rem; /* Consistent logo height */
+    height: 2.5rem; /* Consistent logo height */
     width: auto;
   }
   
@@ -57,8 +57,15 @@
   
   /* RESPONSIVE DESIGN FOR SMALLER SCREENS */
   @media screen and (max-width: 1024px) {
+    .header__menu{
+      display: flex;
+      gap: 2rem;
+      align-items:center;
+      justify-content: center;
+    }
     .header__menu-btn {
-      display: block;
+      display: flex;
+      justify-content: center;
     }
   
     .header__links {
@@ -66,10 +73,10 @@
       top: 100%;
       right: 2%;
       flex-direction: column;
-      background-color: #fff;
-      box-shadow: 0.2rem 0.1rem 0.5rem #5a29e4;
+      background-color:var(--secondary-color);
+      box-shadow: 0.1rem 0.1rem 0.5rem rgb(148, 148, 148);
       border-radius: 0.5rem;
-      padding: 1rem 0;
+      padding: 1rem 2rem 1rem;
       display: none; /* Hidden by default */
     }
   
@@ -84,18 +91,25 @@
     .header__item {
       width: 100%;
       text-align: center;
-      padding: 1rem 0;
+      border-radius: 4px;
+      padding: 0.5rem 0;
+      border: 1px solid rgb(96, 91, 91);
+      width: 100%;
     }
-  
+    
+    .header__item:hover{
+      background-color: #fc6c3a;
+    }
+
     .header__link {
       width: 100%;
       padding: 0 2rem; /* Adjusted padding */
-      background-color: #fc6c3a;
+    
       color: #fff;
     }
   
     .header__link:hover {
-      background-color: #a482ff;
+      color: white;
     }
   }
   

@@ -5,6 +5,7 @@ import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { useState } from "react";
 import "./Header.css";
+import PopUpModal from "../modal/PopUpModal";
 
 export const Header = () => {
   const [isNavVisible, setIsNavVisible] = useState(false);
@@ -27,10 +28,14 @@ export const Header = () => {
             </li>
           ))}
         </ul>
-        <div className="header__menu-btn" onClick={toggleNav}>
-          {isNavVisible ? <MdClose /> : <FaBars />}
+        <div className="header__menu">
+          <PopUpModal />
+          <div className="header__menu-btn" onClick={toggleNav}>
+            {isNavVisible ? <MdClose /> : <FaBars />}
+          </div>
         </div>
       </nav>
     </header>
+    
   );
 };
