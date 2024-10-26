@@ -129,7 +129,7 @@ img {
 
 @media screen and (max-width: 768px) {
   section {
-    padding: var(--spacing-4) 0; /* Reduce padding on smaller screens */
+    padding: var(--spacing-4); /* Reduce padding on smaller screens */
   }
 
   h1 {
@@ -138,6 +138,28 @@ img {
 
   h2 {
     font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .btn__lg {
+    padding: var(--spacing-2) var(--spacing-4); /* Adjust button padding for mobile */
+  }
+}
+
+@media screen and (max-width: 460px) {
+  section {
+    padding: var(--spacing-2); /* Reduce padding on smaller screens */
+  }
+
+  h1 {
+    font-size: 2.5rem; /* Adjust font sizes for better mobile scaling */
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 
   h3 {

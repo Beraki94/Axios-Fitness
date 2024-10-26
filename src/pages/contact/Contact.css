@@ -1,8 +1,4 @@
-.contact {
-    padding: 4rem 2rem; /* Following 8-point spacing system */
-   
-    color: var(--text-color);
-  }
+
   
   .contact__container {
     background: url("https://media.gettyimages.com/id/1493960038/photo/portrait-of-multiracial-athletes-smiling-at-camera-in-gym.jpg?s=612x612&w=0&k=20&c=4tJ-oGJa68ValtCaPV4XSIC0sz0ovNKpSjxZ-CAYjFg=") no-repeat center center fixed ;/* Light background for contrast */
@@ -12,9 +8,11 @@
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    
+    
     flex-wrap: wrap;
+    margin-top:-1.5rem;
+    margin-bottom: -1.5rem;
   }
   .generel__info{
     display: flex;
@@ -97,7 +95,6 @@
   }
 
   .contact__map {
-    margin-bottom: 4rem;
     overflow: hidden;
     width: 100%;
   }
@@ -108,6 +105,12 @@
       flex-direction: column;
     }
   
+    .generel__info{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+    }
     .contact__info, 
     .contact__form {
       margin-bottom: 2rem;
@@ -118,7 +121,7 @@
         height: 300px;
       }
     
-  }
+  
   
   
   
