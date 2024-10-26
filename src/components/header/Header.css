@@ -1,0 +1,101 @@
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #184975;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* NAVIGATION */
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem; /* Consistent padding */
+    border-bottom: 2px solid #ffb39a;
+    background-color: rgba(255, 255, 255, 0.989);
+  }
+  
+  .header__logo img {
+    height: 3rem; /* Consistent logo height */
+    width: auto;
+  }
+  
+  /* NAV LINKS */
+  .header__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Adjusted spacing for consistency */
+    transition: var(--transition);
+  }
+  
+  .header__item {
+    list-style: none;
+  }
+  
+  .header__link {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .header__link:hover {
+    color: #fc6c3a;
+  }
+  
+  /* MENU BUTTON */
+  .header__menu-btn {
+    display: none; /* Hidden by default */
+    font-size: 2.5rem;
+    cursor: pointer;
+  }
+  
+  /* RESPONSIVE DESIGN FOR SMALLER SCREENS */
+  @media screen and (max-width: 1024px) {
+    .header__menu-btn {
+      display: block;
+    }
+  
+    .header__links {
+      position: absolute;
+      top: 100%;
+      right: 2%;
+      flex-direction: column;
+      background-color: #fff;
+      box-shadow: 0.2rem 0.1rem 0.5rem #5a29e4;
+      border-radius: 0.5rem;
+      padding: 1rem 0;
+      display: none; /* Hidden by default */
+    }
+  
+    .header__links--visible {
+      display: flex;
+    }
+  
+    .header__links--hidden {
+      display: none;
+    }
+  
+    .header__item {
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    .header__link {
+      width: 100%;
+      padding: 0 2rem; /* Adjusted padding */
+      background-color: #fc6c3a;
+      color: #fff;
+    }
+  
+    .header__link:hover {
+      background-color: #a482ff;
+    }
+  }
+  

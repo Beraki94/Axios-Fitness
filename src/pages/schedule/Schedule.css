@@ -1,0 +1,63 @@
+.schedule__table {
+    padding: 2rem;
+    background-color: var(--grey-color-5); /* Assuming a light grey for background */
+  }
+  
+  .schedule__container {
+    overflow-x: auto; /* Enable horizontal scrolling for small devices */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    background-color: #fff;
+  }
+  
+  /* Basic data styling */
+  .schedule__data {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    background-color: #fff;
+  }
+  
+  .schedule__data th, 
+  .schedule__data td {
+    padding: 1rem; /* 16px spacing (following 8-point system) */
+    text-align: center;
+    border: 1px solid #ddd; /* Light border for separation */
+    min-width: 120px; /* Ensure columns are at least a certain width */
+  }
+  
+  /* Sticky header */
+  .schedule__data thead th {
+    position: sticky;
+    top: 0;
+    background-color: var(--primary-color); /* Sticky header color */
+    color: #fff;
+    z-index: 1;
+  }
+  
+  /* Alternating row colors for readability */
+  .schedule__row:nth-child(even) {
+    background-color: var(--grey-color-10); /* Light grey for even rows */
+  }
+  
+  .schedule__row--even {
+    background-color: #f7f7f7;
+  }
+  
+  .schedule__row:hover {
+    background-color: var(--secondary-color-50); /* Light shade of secondary color */
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .schedule__data th, 
+    .schedule__data td {
+      padding: 0.75rem; /* Slightly smaller padding for mobile */
+      font-size: 0.875rem; /* Smaller text size */
+    }
+  
+    .schedule__container {
+      padding: 0 1rem;
+    }
+  }
+  

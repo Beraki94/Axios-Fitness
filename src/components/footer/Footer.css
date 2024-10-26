@@ -1,0 +1,141 @@
+.footer {
+    background-color: #184975; /* Secondary color */
+    color: #f1f1f1;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+  }
+  
+  .footer .container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem; /* Consistent spacing */
+  }
+  
+  .footer-section {
+    flex: 1 1 250px;
+    margin-bottom: 2rem;
+  }
+
+  .footer-section h5 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Logo Section Styling */
+  .logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .logo-section img {
+    width: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .logo-section h4 {
+    margin: 4px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    margin-top: 1rem;
+  }
+  
+  .social-icons a {
+    color: var(--primary-color);
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: var(--primary-color);
+  }
+  
+  /* Quick Links Styling */
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;
+  }
+  
+  .quick-links a {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  .quick-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Address & Hours Styling */
+  .address, .hours {
+    text-align: left;
+  }
+  
+  .contact-detail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .footer-icon {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+    margin-right: 0.5rem;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    border-top: 1px solid #f1f1f1;
+    width: 100%;
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #f1f1f1;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-section {
+      flex: 1 1 100%;
+    }
+    
+    .contact-detail{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-icons {
+      justify-content: center;
+
+    }
+    .footer-section h5{
+        text-align: center;
+    }
+  }
+  

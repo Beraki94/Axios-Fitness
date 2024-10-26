@@ -1,0 +1,38 @@
+import PageHeader from "../../components/pageHeader/PageHeader"
+import "./About.css"
+import SectionHeader from "../../components/sectionHeader/SectionHeader"
+import ImageGallery from "../../components/imageGallery/ImageGallery"
+import GymServices from "../../components/gymServices/GymServices"
+import TrainersList from "../../components/trainers/TrainersList"
+import AboutSplitSection from "../../components/AboutSplitSection/AboutSplitSection"
+
+const About = () => {
+  return (
+    <div className="about container"> 
+      <PageHeader title={"About Us"} image={"https://media.gettyimages.com/id/1291134201/photo/if-it-burns-youre-getting-closer.jpg?s=612x612&w=0&k=20&c=lbvmx_vsim_U8vakIw6ykHGqh9kHMmdKBJ5wFuytTT4="}>
+        "Strength doesn't come from what you can do. It comes from overcoming the things you once thought you couldn't."
+      </PageHeader>
+     
+    <section>
+      <AboutSplitSection />
+    </section>
+
+    <section className="about__services">
+     <SectionHeader title={"WHAT WE DO"} subTitle={"Our range of fitness services"} />
+     <GymServices />
+    </section>
+    <section>
+      <SectionHeader title={"TAKE A TOUR"} subTitle={"Our Outstanding training Facilties"} />
+      <ImageGallery />
+    </section>
+    <section>
+      <SectionHeader title={"TAKE A TOUR"} subTitle={"Our Outstanding training Facilties"}/>
+      <TrainersList />
+    </section>
+</div>
+  
+             
+  )
+}
+
+export default About

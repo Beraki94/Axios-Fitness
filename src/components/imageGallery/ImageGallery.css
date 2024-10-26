@@ -1,0 +1,28 @@
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; /* Space between items */
+    padding: 20px;
+}
+
+.gallery-item {
+    border: 2px solid #fc6c3a; /* Match your primary color */
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.gallery-item img {
+    width: 100%; /* Makes the image responsive */
+    height:100%;
+}
+
+.gallery-item p {
+    text-align: center;
+    margin: 5px 0;
+    color: #184975; /* Match your secondary color */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}

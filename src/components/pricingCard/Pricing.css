@@ -1,0 +1,105 @@
+/* Container for all pricing cards */
+.pricing__section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+/* Individual pricing card styles */
+.pricing__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background-color: #25274D; /* Using a dark blue for a professional gym feel */
+  color: #f0f1f5;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pricing__card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Plan name styles */
+.pricing__plan-name {
+  font-size: 1.8rem;
+  color: #FF5722; /* Highlight color to draw attention */
+  margin-bottom: 10px;
+}
+
+/* Plan price styles */
+.pricing__plan-price {
+  font-size: 1.5rem;
+  color: #FF9800; /* Secondary highlight */
+  margin-bottom: 20px;
+}
+
+/* Feature list */
+.pricing__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.pricing__feature-item {
+  margin: 10px 0;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #e0e4ee;
+  font-size: 1rem;
+}
+
+/* Button style */
+.pricing__button {
+  margin-top: 24px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #3A6EA5;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.pricing__button:hover {
+  background-color: #527ba0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .pricing__section {
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .pricing__card {
+    width: 100%;
+    margin: 8px 0;
+  }
+
+  .pricing__plan-name {
+    font-size: 1.6rem;
+  }
+
+  .pricing__plan-price {
+    font-size: 1.3rem;
+  }
+
+  .pricing__feature-item {
+    font-size: 0.9rem;
+  }
+
+  .pricing__button {
+    font-size: 0.9rem;
+  }
+}

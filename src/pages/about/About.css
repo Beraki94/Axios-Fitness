@@ -1,0 +1,126 @@
+.about {
+    width: 100%;
+    
+  }
+  
+  .about__title {
+    color:var(--secondary-color);
+  }
+  
+  .about__text {
+    margin-bottom: 16px;
+  }
+  
+  .about__split-section {
+    color: var(--secondary-color);
+    background-color: var(--grey-color-10);
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .about__split-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .about__split-content div{
+    flex: 1;
+  }
+
+  .about__split-content-down{
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .about__split-content-down div{
+    flex: 1;
+    border-left:0.25rem solid var(--primary-color);
+    text-align: justify;
+    padding: 1rem;
+  }
+
+  .about__split-content-down li span{
+    color: var(--primary-color);
+  }
+
+  .about__split-image {
+    flex: 1;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about__split-image img {
+    width: 40%;
+    border-radius: 8px;
+    align-items: center;
+  }
+  
+  .about__mission,
+  .about__values,
+  .about__services,
+  .about__testimonials,
+  .about__cta {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  .about__team {
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  
+  .about__team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  .about__team-member {
+    width: 200px;
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .about__team-member img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .about__service-item {
+    padding: 16px;
+    background-color: #fc6c3a; /* Primary color */
+    color: white;
+    margin-bottom: 8px;
+    border-radius: 8px;
+  }
+  
+  .about__testimonial-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .about__cta-button {
+    padding: 12px 24px;
+    background-color: #fc6c3a; /* Primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about__cta-button:hover {
+    background-color: #e85a1f; /* Slightly darker shade */
+  }
+
+  .about__services{
+    background-color: var(--secondary-color);
+  }

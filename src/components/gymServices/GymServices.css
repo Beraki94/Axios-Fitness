@@ -1,0 +1,70 @@
+.gym-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    background-color: var(--grey-color-5); /* Optional background */
+  }
+  
+  .service-card {
+    background: #fff;
+    border: 2px solid #fc6c3a; /* Primary color */
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-icon {
+    font-size: 36px;
+    color: #fc6c3a; /* Primary color */
+    margin-bottom: 1rem;
+  }
+  
+  .service-card h3 {
+    color: #184975; /* Secondary color */
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+  
+  .service-card p {
+    font-size: 0.875rem;
+    color: #333;
+    line-height: 1.4;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .gym-services {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-card {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .service-icon {
+      font-size: 30px;
+    }
+  
+    .service-card h3 {
+      font-size: 1rem;
+    }
+  
+    .service-card p {
+      font-size: 0.75rem;
+    }
+  }
+  
