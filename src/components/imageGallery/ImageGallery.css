@@ -26,3 +26,11 @@
 .gallery-item:hover {
     transform: scale(1.05); /* Slightly scale up on hover */
 }
+
+@media (max-width: 768px) {
+    .gallery-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
