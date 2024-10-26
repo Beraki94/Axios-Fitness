@@ -4,7 +4,8 @@ import SectionHeader from "../../components/sectionHeader/SectionHeader"
 import ImageGallery from "../../components/imageGallery/ImageGallery"
 import GymServices from "../../components/gymServices/GymServices"
 import TrainersList from "../../components/trainers/TrainersList"
-import AboutSplitSection from "../../components/AboutSplitSection/AboutSplitSection"
+import AboutHero from "../../components/aboutHero/AboutHero"
+
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
       </PageHeader>
      
     <section>
-      <AboutSplitSection />
+      <AboutHero />
     </section>
 
     <section className="about__services">

@@ -1,9 +1,9 @@
-import SectionHeader from "../../components/sectionHeader/SectionHeader";
+import SectionHeader from "../sectionHeader/SectionHeader";
 import { FaCheck } from "react-icons/fa6";
 import LogoName from "../../images/axios_fitness_logo.png";
-import "./AboutSplitSection.css";
+import "./AboutHero.css";
 
-const AboutSplitSection = () => {
+const AboutHero = () => {
   return (
     <section className="about__split-section">
       <SectionHeader 
@@ -52,4 +52,4 @@ const AboutSplitSection = () => {
   );
 };
 
-export default AboutSplitSection;
+export default AboutHero;
