@@ -5,10 +5,11 @@
   display: grid;
   place-items: center;
   overflow: hidden;
-  background-color: var(--white-color);
+  background-color: var(--grey-color-5);
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   margin-top: 4.5rem;
+  background-color: var(--grey-color-100);
 }
 
 .page-header__image {

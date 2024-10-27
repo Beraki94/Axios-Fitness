@@ -1,12 +1,12 @@
 .about__hero{
-  background-color: var(--secondary-color);
+  background-color: var(--grey-color-5);
   margin-top: 4rem;
-  padding: 0;
-  margin: 0;
+  margin-top: -1.5rem;
+  padding: 6rem 0 0;
 }
 
   .about__split-section {
-    color: var(--secondary-color);
+    color: var(--grey-color-75);
   }
   
   .about__split-content {
@@ -37,6 +37,6 @@
   }
 
  .about__trainers{
-  background-color: var(--primary-color);
+  background-color: var(--primary-color-75);
   margin-bottom: 4rem;
  }

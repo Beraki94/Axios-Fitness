@@ -33,7 +33,7 @@
   }
   
   .service-card h3 {
-    color: #184975; /* Secondary color */
+    color: var(--secondary-color); /* Secondary color */
     font-size: 1.25rem;
     font-weight: 600;
     margin: 0.5rem 0;
@@ -41,7 +41,7 @@
   
   .service-card p {
     font-size: 0.875rem;
-    color: #333;
+    color:var(--grey-color-100);
     line-height: 1.4;
   }
   

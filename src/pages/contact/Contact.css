@@ -1,7 +1,5 @@
 
   .contact__container {
-    background: url("https://media.gettyimages.com/id/1493960038/photo/portrait-of-multiracial-athletes-smiling-at-camera-in-gym.jpg?s=612x612&w=0&k=20&c=4tJ-oGJa68ValtCaPV4XSIC0sz0ovNKpSjxZ-CAYjFg=") no-repeat center center fixed ;/* Light background for contrast */
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,6 +8,7 @@
     flex-wrap: wrap;
     margin-top:-1.5rem;
     margin-bottom: -1.5rem;
+    background-color: var(--grey-color-5);
   }
   .generel__info{
     display: flex;
@@ -19,7 +18,7 @@
   /* Contact Information Styling */
   .contact__info {
     flex: 1;
-    background-color: #fff;
+    background-color: var(--grey-color-10);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -50,7 +49,7 @@
   /* Contact Form Styling */
   .contact__form {
     flex: 1;
-    background-color: #fff;
+    background-color: var(--grey-color-10);
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
