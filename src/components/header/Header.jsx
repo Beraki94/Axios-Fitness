@@ -29,7 +29,7 @@ export const Header = () => {
           ))}
         </ul>
         <div className="header__menu">
-          <PopUpModal />
+          <PopUpModal className="modal__btn"/>
           <div className="header__menu-btn" onClick={toggleNav}>
             {isNavVisible ? <MdClose /> : <FaBars />}
           </div>

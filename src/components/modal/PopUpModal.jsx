@@ -15,8 +15,8 @@ const PopUpModal = () => {
   
     return (
       <>
-        <Button variant="primary" className="nav-btn" onClick={handleShow}>
-        Join Us
+        <Button variant="primary" className="nav-btn btn__sm" onClick={handleShow}>
+          Unlock Access
         </Button>
   
         <Modal show={show} className="onboarding">

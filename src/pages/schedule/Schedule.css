@@ -85,6 +85,7 @@
     align-self: center;
   }
   .schedule__discount h4 {
+    text-shadow: rgba(255, 255, 255, 0.267) 0px 4px 12px;
     font-size: 2rem;
     color: var(--primary-color);
   }

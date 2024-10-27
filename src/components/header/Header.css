@@ -38,6 +38,7 @@
   .header__item {
     list-style: none;
     font-size: 1.125rem;
+    
   }
   
   .header__link {
@@ -117,5 +118,13 @@
   @media (max-width: 355px) {
     .modal__btn{
       display: none;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .header__menu{
+      gap: 2rem;
+      margin-left: 2rem;
+     
     }
   }

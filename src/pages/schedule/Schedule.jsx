@@ -1,6 +1,8 @@
 import PageHeader from "../../components/pageHeader/PageHeader";
 import './Schedule.css';
 import SectionHeader from "../../components/sectionHeader/SectionHeader";
+import { Link } from "react-router-dom";
+
 const Schedule = () => {
   return (
     <div className="schedule container">
@@ -94,10 +96,12 @@ const Schedule = () => {
   </section>
   <section className="schedule__discount">
   <div>
-      <h4>ENJOY 50% DISCOUNT</h4>
-      <h5>Offer Lasts until 31st December 2024</h5>
+      <h4>Save 50% on Your First Session!</h4>
+      <h5>Offer Lasts untill 31st December, 2024</h5>
     </div>
-      <button className="btn__lg">BECOME A MEMBER NOW</button>
+    <Link to={"https://ifitness.gymmasteronline.com/portal/signup/details/f91100f7420cb3fa3366f3f1d85ef57d?src=purchase&session=eyJsYW5ndWFnZSI6ImVuX1VTIiwiaXBfYWRkciI6IjEwMi44OS4zMy40OSJ9.ZmOG4Q.AcQ_OukW8tBzKglWA6B1eXUe2Rw"}>
+          <button className="btn__lg">Transform Now</button>
+      </Link>
   </section>
   </div>
   );

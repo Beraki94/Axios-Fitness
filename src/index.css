@@ -115,6 +115,18 @@ img {
   transition: var(--transition);
 }
 
+.btn__sm{
+  padding: var(--spacing-2) var(--spacing-3); /* 24px 48px */
+  background-color: var(--primary-color);
+  color: var(--grey-color-5);
+  border-radius: 2rem;
+  font-size: 1rem; /* 18px */
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
 .btn__lg:hover {
   background-color: var(--secondary-color);
 }
@@ -151,6 +163,10 @@ img {
 
   .btn__lg {
     padding: var(--spacing-2) var(--spacing-4); /* Adjust button padding for mobile */
+
+  }
+  .btn__sm{
+    font-size: 0.8rem;
   }
 }
 

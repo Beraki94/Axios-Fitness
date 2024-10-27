@@ -44,10 +44,12 @@
     
 }
 
-.onboarding-signup:hover .onboarding-login:hover {
+.onboarding-signup:hover, .onboarding-login:hover {
     background-color: var(--secondary);
     cursor: pointer;
 }
+
+
 
 @media (max-width: 1089px) {
   .modal-content {
@@ -62,7 +64,7 @@
     padding: 1rem;
   }
 }
-@media (max-width: 355px) {
+@media (max-width: 394px) {
   .nav-btn {
     display: none;
   }
