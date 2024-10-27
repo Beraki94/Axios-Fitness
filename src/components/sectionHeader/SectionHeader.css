@@ -18,10 +18,10 @@
   }
   
   .section-header__title {
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 6px var(--grey-color-25);
     font-size: 2.5rem;
     font-weight: 700;
-    color: var(--grey-color-100); /* Adjusted to your theme */
+    color: var(--secondary-color); /* Adjusted to your theme */
     line-height: 1.2;
     margin: 0;
   }
