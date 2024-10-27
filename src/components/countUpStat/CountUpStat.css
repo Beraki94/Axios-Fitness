@@ -25,21 +25,39 @@
   }
   
   .countup-value {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 1.7;
   }
   
   .stat-label {
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-top: 0.5rem;
     color: var(--grey-color-10);
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 1123px) {
     .statistics {
-      flex-direction: column;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .statistics-details {
+      flex-basis: 100%;
+    }
+  
+    .countup-value {
+      font-size: 2.3rem;
+    }
+  
+    .stat-label {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width: 500px) {
+    .statistics {
+      display: flex;
     }
   
     .statistics-details {
