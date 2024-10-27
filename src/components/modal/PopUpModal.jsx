@@ -20,7 +20,7 @@ const PopUpModal = () => {
         </Button>
   
         <Modal show={show} className="onboarding">
-          <div className='.modal-content'>
+        <div className='.modal-content'>
           <Modal.Header closeButton >
             <button className='modal__close' onClick={handleClose}><MdClose /></button>
             <Modal.Title ><h2 className='onboarding-title'>GET 5% OFF JOINING FEE</h2></Modal.Title >

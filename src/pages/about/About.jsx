@@ -23,7 +23,10 @@ const About = () => {
     </section>
 
     <section className="about__services">
-     <SectionHeader title={"WHAT WE DO"} subTitle={"Our range of fitness services"} />
+     <SectionHeader 
+          title={"WHAT WE DO"}
+          subTitle={"Our range of fitness services"}
+          className="secondary" />
      <GymServices />
     </section>
     <section className="about__gallery">

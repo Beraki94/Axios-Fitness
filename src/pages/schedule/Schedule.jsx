@@ -92,6 +92,13 @@ const Schedule = () => {
       </table>
     </div>
   </section>
+  <section className="schedule__discount">
+  <div>
+      <h4>ENJOY 50% DISCOUNT</h4>
+      <h5>Offer Lasts until 31st December 2024</h5>
+    </div>
+      <button className="btn__lg">BECOME A MEMBER NOW</button>
+  </section>
   </div>
   );
 };

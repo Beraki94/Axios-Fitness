@@ -93,7 +93,7 @@
       text-align: center;
       border-radius: 4px;
       padding: 0.5rem 0;
-      border: 1px solid rgb(96, 91, 91);
+
       width: 100%;
     }
     
@@ -113,3 +113,8 @@
     }
   }
   
+  @media (max-width: 355px) {
+    .modal__btn{
+      display: none;
+    }
+  }

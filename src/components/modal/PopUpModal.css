@@ -62,3 +62,8 @@
     padding: 1rem;
   }
 }
+@media (max-width: 355px) {
+  .nav-btn {
+    display: none;
+  }
+}

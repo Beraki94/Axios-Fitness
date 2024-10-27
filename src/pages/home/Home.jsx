@@ -25,7 +25,8 @@ const Home = () => {
       <section className="home__services">
         <SectionHeader 
           title="WHAT WE DO" 
-          subTitle="Our range of fitness services" 
+          subTitle="Our range of fitness services"
+          className = "secondary"
         />
         <GymServices />
       </section>

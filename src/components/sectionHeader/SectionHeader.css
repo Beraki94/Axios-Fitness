@@ -26,3 +26,7 @@
     margin: 0;
   }
   
+  .section-header.secondary .section-header__title{
+    color: var(--grey-color-5);
+    text-shadow: 2px 2px 6px var(--grey-color-75)
+  }

@@ -1,5 +1,11 @@
+.schedule{
+  flex-direction: column;
+  display: flex;
+}
 .schedule__table {
-    padding: 2rem;
+    margin-top: -1.5rem;
+    margin-bottom: -1.5rem;
+    padding: 6rem 0 0;
     background-color: var(--grey-color-5); /* Assuming a light grey for background */
   }
   
@@ -61,3 +67,58 @@
     }
   }
   
+  .schedule__discount {
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    background: var(--gradient-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+    color: var(--grey-color-5);
+    text-align: center;
+    border-radius: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 80%;
+    align-self: center;
+  }
+  .schedule__discount h4 {
+    font-size: 2rem;
+    color: var(--primary-color);
+  }
+  
+  .schedule__discount h5 {
+    font-size: 1.25rem;
+    color: var(--grey-color-5);
+    
+  }
+  
+  .btn__lg {
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: var(--primary-color);
+    color: var(--grey-color-5);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  @media (max-width: 768px) {
+  
+    .schedule__discount h4 {
+      font-size: 1.75rem;
+    }
+  
+    .schedule__discount h5 {
+      font-size: 1rem;
+    }
+  
+    .btn__lg {
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+    }
+  }
+  
+ 
