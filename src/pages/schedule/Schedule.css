@@ -1,6 +1,7 @@
 .schedule{
   flex-direction: column;
   display: flex;
+  background-color: var(--grey-color-5);
 }
 .schedule__table {
     margin-top: -1.5rem;

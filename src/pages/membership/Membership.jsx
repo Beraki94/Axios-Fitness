@@ -7,15 +7,15 @@ import "./Membership.css"
 const Membership = () => {
   return (
     <div className="membership container">
-      <PageHeader title={"Pricing Plan"}image={"https://t4.ftcdn.net/jpg/02/07/90/87/240_F_207908753_IgTqqhNJMOnWOgSNLXayj6MYaj91gdjp.jpg"}>
+      <PageHeader title={"Membership plan"}image={"https://t4.ftcdn.net/jpg/02/07/90/87/240_F_207908753_IgTqqhNJMOnWOgSNLXayj6MYaj91gdjp.jpg"}>
       "Fitness is not about being better than someone else. It’s about being better than you used to be."
       </PageHeader >
       <section className="membership__zone" >
         <div className="zone__card">
-          <SectionHeader title={"BECOME A MEMBER"} subTitle={"Our Affordable Pricing Plan"} />
+          <SectionHeader title={"Flexible Membership Plans"} subTitle={"Choose the Perfect Plan That Fits Your Lifestyle and Schedule"} />
           <PricingList />
         </div>
-        <SectionHeader title={"BECOME A MEMBER"} subTitle={"Our Affordable Pricing Plan"} />
+        <SectionHeader title={"What Our Members Say"} subTitle={"Real Stories of Transformation and Success from Our Community"} />
         <Testimonials />
       </section>
     </div>

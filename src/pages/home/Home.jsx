@@ -24,8 +24,8 @@ const Home = () => {
       {/* Services Section */}
       <section className="home__services">
         <SectionHeader 
-          title="WHAT WE DO" 
-          subTitle="Our range of fitness services"
+          title="Our Premium Services" 
+          subTitle="Explore a Variety of Fitness Programs Designed for Every Goal"
           className = "secondary"
         />
         <GymServices />
@@ -39,8 +39,8 @@ const Home = () => {
       {/* Pricing Plans Section */}
       <section className="home__plans">
         <SectionHeader 
-          title="BECOME A MEMBER" 
-          subTitle="Our Affordable Pricing Plan" 
+          title="Flexible Membership Plans" 
+          subTitle="Choose the Perfect Plan That Fits Your Lifestyle and Schedule" 
         />
         <PricingList />
       </section>
@@ -48,8 +48,8 @@ const Home = () => {
       {/* Testimonials Section */}
       <section className="home__testimony">
         <SectionHeader 
-          title="HEAR FROM OUR MEMBERS" 
-          subTitle="Testimonials from our valued clients" 
+          title="What Our Members Say" 
+          subTitle="Real Stories of Transformation and Success from Our Community" 
         />
         <Testimonials />
       </section>

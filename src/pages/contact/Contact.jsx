@@ -11,7 +11,7 @@ const Contact = () => {
       "The only bad workout is the one that didn’t happen."
       </PageHeader>
       <section className="contact__container">
-        <div><SectionHeader title={"BECOME A MEMBER"} subTitle={"Our Affordable Pricing Plan"} /></div>
+        <div><SectionHeader title={"Get in Touch"} subTitle={"We’re here to help and answer any questions you have."} /></div>
         {/* Contact Info */}
         <div className='generel__info'>
         <div className="contact__info">
@@ -62,7 +62,6 @@ const Contact = () => {
             allowFullScreen="" 
             loading="lazy"
             title="Gym Location"
-            
             
           />
       </div>

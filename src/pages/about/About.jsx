@@ -16,25 +16,25 @@ const About = () => {
      
     <section className="about__hero">
     <SectionHeader 
-        title="EMPOWERING YOU TO BE YOUR BEST" 
-        subTitle="Our Company Overview" 
+        title="Our Company Overview" 
+        subTitle="Empowering You to Achieve Your Health and Fitness Goals Every Day" 
       />
       <AboutHero />
     </section>
 
     <section className="about__services">
      <SectionHeader 
-          title={"WHAT WE DO"}
-          subTitle={"Our range of fitness services"}
+          title={"Our Premium Services"}
+          subTitle={"Explore a Variety of Fitness Programs Designed for Every Goal"}
           className="secondary" />
      <GymServices />
     </section>
     <section className="about__gallery">
-      <SectionHeader title={"TAKE A TOUR"} subTitle={"Our Outstanding training Facilties"} />
+      <SectionHeader title={"TAKE A TOUR"} subTitle={"A Glimpse into Our Vibrant and Motivating Fitness Environment"} />
       <ImageGallery />
     </section>
     <section className="about__trainers">
-      <SectionHeader title={"TAKE A TOUR"} subTitle={"Our Outstanding training Facilties"}/>
+      <SectionHeader title={"Meet Our Expert Trainers"} subTitle={"Certified Professionals Dedicated to Guiding You Every Step of the Way"}/>
       <TrainersList />
     </section>
 </div>

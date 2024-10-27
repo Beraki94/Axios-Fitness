@@ -12,7 +12,7 @@ const Schedule = () => {
     </PageHeader>
 
     <section className="schedule__table">
-    <SectionHeader title={"BECOME A MEMBER"} subTitle={"Our Affordable Pricing Plan"} />
+    <SectionHeader title={"Plan Your Time"} subTitle={"All your events and appointments in one organized space."} />
     <div className="schedule__container">
       <table className="schedule__data">
         <thead>
