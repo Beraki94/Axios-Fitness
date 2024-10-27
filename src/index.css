@@ -54,7 +54,6 @@ section {
   width: var(--container-width-lg);
   max-width: 1980px;
   margin: 0 auto;
-  padding: 0 var(--spacing-2);
 }
 
 h1, h2, h3, h4, h5, h6 {
