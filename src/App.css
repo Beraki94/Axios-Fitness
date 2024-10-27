@@ -1,6 +1,5 @@
 .app__wrapper{
-    position: relative;
-   
+   position: relative;
 }
 
 .app__wrapper::before {

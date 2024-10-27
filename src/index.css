@@ -129,6 +129,8 @@ img {
 
 @media screen and (max-width: 768px) {
   section {
+    margin: 2rem;
+
     padding: var(--spacing-4); /* Reduce padding on smaller screens */
   }
 
@@ -151,6 +153,7 @@ img {
 
 @media screen and (max-width: 460px) {
   section {
+    margin: 1rem;
     padding: var(--spacing-2); /* Reduce padding on smaller screens */
   }
 

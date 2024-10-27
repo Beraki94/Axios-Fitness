@@ -14,32 +14,17 @@
   display: block;
 }
 
-/* Responsive adjustments for smaller screens */
-@media (max-width: 768px) {
-  .carousel__slide img {
-    height: 25rem; /* Reduce image height for mobile */
-  }
-}
 
 .carousel__caption {
   background-color: var(--secondary-color-75);
   width: 44rem;
   position: absolute;
-  top: 7rem;
+  top: 9rem;
   left: 2.5rem;
   color: var(--grey-color-5);
   padding: 2rem;
   border-radius: 5px;
-}
-
-/* Adjust caption for mobile screens */
-@media (max-width: 768px) {
-  .carousel__caption {
-    width: 80%;
-    top: 5rem;
-    left: 10%; /* Centered for smaller screens */
-    padding: 1.5rem;
-  }
+  overflow: hidden;
 }
 
 .carousel__caption h1 {
@@ -57,7 +42,7 @@
 
 .carousel__btn {
   position: absolute;
-  top: 22rem;
+  top: 24rem;
   left: 2.5rem;
 }
 
@@ -78,31 +63,99 @@
   background-color: var(--secondary-color);
 }
 
-/* Adjust button for mobile screens */
-@media (max-width: 768px) {
-  .carousel__btn {
-    font-size: 0.9rem;
-    padding: 0.7rem 1.2rem;
-    top: auto;
-    bottom: 1.5rem; /* Position at the bottom of the slide */
-    left: 50%;
-    transform: translateX(-50%);
+
+/* Responsive adjustments for smaller screens */
+
+@media (max-width: 840px) {
+  .carousel__caption {
+    width: 0 auto;
+    top: 8rem;
+    left: 2%; /* Centered for smaller screens */
+    padding: 1.5rem;
   }
 }
 
-@media (max-width: 723px) {
+
+@media (max-width: 800px) {
+  .carousel__caption {
+    width: 90% auto;
+    top: 10rem;
+    left: 1%; /* Centered for smaller screens */
+    padding: 1.5rem;
+  }
+
   .carousel__btn{
-    display: none;
+    display: block;
+    top: 24rem;
+    left: 30%;
   }
 }
-@media (max-width: 516px) {
+
+@media (max-width: 794px) {
+  .carousel__caption{
+    width: 70%;
+    top: 7rem;
+    left: 5%; /* Centered for smaller screens */
+    padding: 1.5rem;
+}
+.carousel__btn{
+  display: block;
+  top: 28rem;
+  left: 5%;
+}
+}
+
+@media (max-width: 768px) {
+  .carousel__slide img {
+    height: 30rem; /* Reduce image height for mobile */
+  }
+
+  .carousel__caption{
+    width: 60%;
+    top: 3rem;
+    left: 5%; /* Centered for smaller screens */
+    padding: 1.5rem;
+}
+.carousel__btn{
+  display: block;
+  top: 22rem;
+  left: 5%;
+}
+}
+
+@media (max-width: 700px) {
+  .carousel__btn{
+   display: none;
+  }
+  
+}
+@media (max-width: 566px) {
   .carousel__caption{
     width: 80%;
     top: 3rem;
     left: 10%; /* Centered for smaller screens */
     padding: 1rem;
+  
+  }
+
+  .carousel__slide img {
+    height: 25rem; /* Reduce image height for mobile */
   }
     
+  }
+@media (max-width: 470px) {
+  .carousel__slide img {
+    height: 23rem; /* Reduce image height for mobile */
+  }
+  .carousel__caption h1 {
+    text-align: left;
+    font-size: 2rem;
+  }
+
+  .carousel__caption p {
+    font-size: small;
+  
+  }
   }
 
 
