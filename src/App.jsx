@@ -8,6 +8,7 @@ import Home from './pages/home/Home'
 import NotFound from './pages/notFound/NotFound'
 import Membership from './pages/membership/Membership'
 import Schedule from './pages/schedule/Schedule'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   
@@ -15,6 +16,7 @@ function App() {
   return (
  <div className='app__wrapper' >
  <Header />
+    <ScrollToTop />
     <Routes>
       <Route index element={<Home />}/>
       <Route path='/about' element={<About />}/>
