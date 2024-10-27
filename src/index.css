@@ -151,20 +151,19 @@ img {
 
 @media screen and (max-width: 460px) {
   section {
-    margin: 1rem;
     padding: var(--spacing-2); /* Reduce padding on smaller screens */
   }
 
   h1 {
-    font-size: 2.5rem; /* Adjust font sizes for better mobile scaling */
+    font-size: 2.3rem; /* Adjust font sizes for better mobile scaling */
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .btn__lg {
