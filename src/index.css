@@ -46,9 +46,9 @@ body {
   overflow-x: hidden;
 }
 
-section {
+/*section {
   padding: var(--spacing-8) ;
-}
+}*/
 
 .container {
   width: var(--container-width-lg);
@@ -128,7 +128,6 @@ img {
 
 @media screen and (max-width: 768px) {
   section {
-    margin: 2rem;
 
     padding: var(--spacing-4); /* Reduce padding on smaller screens */
   }
