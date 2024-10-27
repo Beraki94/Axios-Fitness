@@ -1,9 +1,9 @@
 .about__split-section {
     padding: 2rem;
-    background-color: var(--grey-color-5);
-    border-radius: 2rem;
+    background-color: var(--grey-color-10);
+    width: 100%;
+    padding: 3rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    margin: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -59,6 +59,7 @@
   .about__values ul {
     list-style: none;
     padding: 0;
+    
   }
   
   .about__values li {

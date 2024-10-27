@@ -5,6 +5,8 @@
     align-items: center;
     margin-bottom: 3rem;
     text-align: center;
+    position: relative; /* Ensures content stays above the overlay */
+    z-index: 2;
   }
   
   .section-header__subtitle {

@@ -38,6 +38,10 @@
   --transition: all 500ms ease;
 }
 
+body, html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--grey-color-5);
   font-family: "Roboto", sans-serif;
@@ -46,9 +50,10 @@ body {
   overflow-x: hidden;
 }
 
-/*section {
-  padding: var(--spacing-8) ;
-}*/
+section {
+  padding: var(--spacing-8);
+  width: 100%;
+}
 
 .container {
   width: var(--container-width-lg);

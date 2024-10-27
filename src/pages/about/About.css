@@ -1,6 +1,8 @@
 .about__hero{
   background-color: var(--secondary-color);
   margin-top: 4rem;
+  padding: 0;
+  margin: 0;
 }
 
   .about__split-section {
@@ -28,6 +30,10 @@
   
   .about__services{
     background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
  .about__trainers{

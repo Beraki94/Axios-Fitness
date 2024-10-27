@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     gap: 4rem;
+   
   }
   
   /* Hero Section */
@@ -26,9 +27,25 @@
   
   /* Services Section */
   .home__services {
+    position: relative; /* Ensure the div can contain the overlay */
     border-radius: 2rem;
     background: url("https://media.gettyimages.com/id/1200706787/photo/sweaty-african-american-athlete-running-on-treadmill-during-sports-training-in-a-gym.jpg?s=612x612&w=0&k=20&c=dQ8_l5uo4R2kI5Nd5Y38Mwy2MLkvb57tCUBHmzvkO1c=") no-repeat center center fixed;
     background-size: cover;
+    overflow: hidden;
+    position: relative; /* Ensures content stays above the overlay */
+    z-index: 2;
+    
+  }
+  .home__services::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--secondary-color-75); /* Your chosen color, with 70% opacity */
+    border-radius: 2rem; /* Match the parent div’s border radius */
+    z-index: 1;
     
   }
 
